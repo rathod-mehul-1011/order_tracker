@@ -209,7 +209,7 @@ class _OrderTrackerState extends State<OrderTracker>
                     width: 2,
                     height: widget.orderTitleAndDateList != null &&
                             widget.orderTitleAndDateList!.isNotEmpty
-                        ? widget.orderTitleAndDateList!.length * 80
+                        ? widget.orderTitleAndDateList!.length * 94
                         : 100,
                     child: RotatedBox(
                       quarterTurns: 1,
