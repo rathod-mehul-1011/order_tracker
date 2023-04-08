@@ -207,10 +207,7 @@ class _OrderTrackerState extends State<OrderTracker>
                   padding: const EdgeInsets.only(left: 6),
                   child: SizedBox(
                     width: 2,
-                    height: widget.orderTitleAndDateList != null &&
-                            widget.orderTitleAndDateList!.isNotEmpty
-                        ? widget.orderTitleAndDateList!.length * 50
-                        : 100,
+                    height: 0,
                     child: RotatedBox(
                       quarterTurns: 1,
                       child: LinearProgressIndicator(
