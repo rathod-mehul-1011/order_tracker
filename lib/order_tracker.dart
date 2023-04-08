@@ -245,8 +245,8 @@ class _OrderTrackerState extends State<OrderTracker>
                             Text(
                               widget.orderTitleAndDateList?[index].date ?? "",
                               style: widget.subDateTextStyle ??
-                                  TextStyle(
-                                      fontSize: 14, color: Colors.grey[300]),
+                                  const TextStyle(
+                                      fontSize: 14, color: Colors.grey),
                             )
                           ],
                         );
@@ -353,8 +353,8 @@ class _OrderTrackerState extends State<OrderTracker>
                             Text(
                               widget.shippedTitleAndDateList?[index].date ?? "",
                               style: widget.subDateTextStyle ??
-                                  TextStyle(
-                                      fontSize: 14, color: Colors.grey[300]),
+                                  const TextStyle(
+                                      fontSize: 14, color: Colors.grey),
                             )
                           ],
                         );
@@ -463,8 +463,8 @@ class _OrderTrackerState extends State<OrderTracker>
                                       .date ??
                                   "",
                               style: widget.subDateTextStyle ??
-                                  TextStyle(
-                                      fontSize: 14, color: Colors.grey[300]),
+                                  const TextStyle(
+                                      fontSize: 14, color: Colors.grey),
                             )
                           ],
                         );
@@ -537,7 +537,7 @@ class _OrderTrackerState extends State<OrderTracker>
                       Text(
                         widget.deliveredTitleAndDateList?[index].date ?? "",
                         style: widget.subDateTextStyle ??
-                            TextStyle(fontSize: 14, color: Colors.grey[300]),
+                            const TextStyle(fontSize: 14, color: Colors.grey),
                       )
                     ],
                   );
