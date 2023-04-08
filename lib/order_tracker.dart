@@ -209,7 +209,7 @@ class _OrderTrackerState extends State<OrderTracker>
                     width: 2,
                     height: widget.orderTitleAndDateList != null &&
                             widget.orderTitleAndDateList!.isNotEmpty
-                        ? widget.orderTitleAndDateList!.length * 60
+                        ? widget.orderTitleAndDateList!.length * 64
                         : 100,
                     child: RotatedBox(
                       quarterTurns: 1,
@@ -314,8 +314,8 @@ class _OrderTrackerState extends State<OrderTracker>
                     width: 2,
                     height: widget.shippedTitleAndDateList != null &&
                             widget.shippedTitleAndDateList!.isNotEmpty
-                        ? widget.shippedTitleAndDateList!.length * 56
-                        : 60,
+                        ? widget.shippedTitleAndDateList!.length * 60
+                        : 68,
                     child: RotatedBox(
                       quarterTurns: 1,
                       child: LinearProgressIndicator(
@@ -421,8 +421,8 @@ class _OrderTrackerState extends State<OrderTracker>
                     width: 2,
                     height: widget.outOfDeliveryTitleAndDateList != null &&
                             widget.outOfDeliveryTitleAndDateList!.isNotEmpty
-                        ? widget.outOfDeliveryTitleAndDateList!.length * 56
-                        : 60,
+                        ? widget.outOfDeliveryTitleAndDateList!.length * 60
+                        : 64,
                     child: RotatedBox(
                       quarterTurns: 1,
                       child: LinearProgressIndicator(
